@@ -6,7 +6,7 @@ var accountPassword = "12345"
 // variable can also be declared like this but not preffered at all
 accountCity = "Jaipur"
 
-let accountState; // var declared but not assigned is undefined
+let accountState; // var declared but not assigned -> undefined
 
 // accountId = 2 // not allowed
 
