@@ -1,39 +1,39 @@
 let score = 33
-// console.log(typeof score);
-// console.log(typeof (score)); // as a method
+console.log(typeof score);
+console.log(typeof (score)); // as a method
 
 
 score = "33"
-// console.log(typeof (score)); 
+console.log(typeof (score)); 
 
 // NUMBER
 let valueInNumber  = Number(score)
-// console.log(typeof valueInNumber);
+console.log(typeof valueInNumber);
 
 score = "33abc" //string+num
 let mixInNumber  = Number(score) // str->num don't rely on numbers
-// console.log(typeof mixInNumber); 
-// console.log(mixInNumber); //nan
+console.log(typeof mixInNumber); 
+console.log(mixInNumber); //nan
 
 score = null  
 mixInNumber  = Number(score) // str->num don't rely on numbers
-// console.log(typeof mixInNumber); 
-// console.log(mixInNumber); // 0
+console.log(typeof mixInNumber); 
+console.log(mixInNumber); // 0
 
 score = undefined
 mixInNumber  = Number(score) // str->num don't rely on numbers
-// console.log(typeof mixInNumber); 
-// console.log(mixInNumber); // nan
+console.log(typeof mixInNumber); 
+console.log(mixInNumber); // nan
 
 score = true 
 mixInNumber  = Number(score) // str->num don't rely on numbers
-// console.log(typeof mixInNumber); 
-// console.log(mixInNumber); //true => 1 and false => 0
+console.log(typeof mixInNumber); 
+console.log(mixInNumber); //true => 1 and false => 0
 
 score = "undefined"
 mixInNumber  = Number(score) // not possible
-// console.log(typeof mixInNumber); // undefined
-// console.log(mixInNumber); // nan
+console.log(typeof mixInNumber); // undefined
+console.log(mixInNumber); // nan
 
 
 
